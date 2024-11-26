@@ -82,12 +82,14 @@ export const VerticalConfig: VerticalProps[] = [
     verticalKey: "locations",
     pageType: "map",
     cardType: LocationStandard,
+    universalLimit: 6,
   },
   {
     label: "Web Content",
     verticalKey: "web-content",
     pageType: "standard",
     cardType: DocumentStandard,
+    universalLimit: 6,
   },
 ];
 
